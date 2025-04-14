@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a35c6bd6-4ac6-4640-98bf-117dc83428ef" name="Changes" comment="task on inheritance completed">
-      <change afterPath="$PROJECT_DIR$/src/com/xworkz/external/AllInOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xworkz/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xworkz/runner/Runner.java" afterDir="false" />
+    <list default="true" id="41db5aab-b630-4fb9-ad20-7c2e3f24a038" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/com/xworkz/external/AllInOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Inheritance/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Inheritance/src/com/xworkz/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Inheritance/src/com/xworkz/runner/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,63 +37,62 @@
   }
 }</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2vaiyj0dOBXpBnFHZvrVbbs8ea2" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2vi8n5NbIu1vxt1ixaTLJQiDyxQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Runner.executor": "Run",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Example.executor": "Run",
+    "Application.StringOperations.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Git-Xworkz/Core-java/Inheritance",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "last_opened_file_path": "D:/Git-Xworkz/Core-java/StringOperation"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="StringOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringOperations" />
+      <module name="StringOperations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="StringOperations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="StringOperations" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StringOperations" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a35c6bd6-4ac6-4640-98bf-117dc83428ef" name="Changes" comment="" />
-      <created>1744389844748</created>
+      <changelist id="41db5aab-b630-4fb9-ad20-7c2e3f24a038" name="Changes" comment="" />
+      <created>1744616701434</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744389844748</updated>
+      <updated>1744616701434</updated>
     </task>
-    <task id="LOCAL-00001" summary="task on inheritance completed">
-      <option name="closed" value="true" />
-      <created>1744537795406</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1744537795406</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="task on inheritance completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="task on inheritance completed" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/xworkz/internal/Iteam.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

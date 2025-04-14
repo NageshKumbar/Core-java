@@ -1,5 +1,6 @@
 package com.xworkz.runner;
 
+import com.xworkz.external.AllInOne;
 import com.xworkz.internal.*;
 
 public class Runner {
@@ -11,6 +12,10 @@ public class Runner {
         Laptop laptop = new Laptop();
         laptop.powerOn();
         laptop.openLid();
+        AllInOne allInOne = new AllInOne();
+        allInOne.ShowDevice(device);
+        allInOne.ShowDevice(laptop);
+
 
         System.out.println("-----------");
         Animal animal = new Animal();
@@ -20,6 +25,8 @@ public class Runner {
         Dog myDog = new Dog();
         myDog.eat();
         myDog.bark();
+        allInOne.showAnimal(animal);
+        allInOne.showAnimal(dog);
 
         System.out.println("-----------");
         Account account = new Account();
@@ -29,6 +36,8 @@ public class Runner {
         SavingsAccount mySavings = new SavingsAccount();
         mySavings.deposit();
         mySavings.calculateInterest();
+        allInOne.showAccount(account);
+        allInOne.showAccount(mySavings);
 
         System.out.println("-----------");
         Shape shape = new Shape();
@@ -38,6 +47,8 @@ public class Runner {
         Circle myCircle = new Circle();
         myCircle.draw();
         myCircle.calculateRadius();
+        allInOne.showShape(shape);
+        allInOne.showShape(myCircle);
 
         System.out.println("-----------");
         Employee employee = new Employee();
@@ -47,6 +58,8 @@ public class Runner {
         Manager myManager = new Manager();
         myManager.work();
         myManager.manageTeam();
+        allInOne.showEmployee(employee);
+        allInOne.showEmployee(myManager);
 
         System.out.println("-----------");
         Person person = new Person();
@@ -56,6 +69,8 @@ public class Runner {
         Student myStudent = new Student();
         myStudent.introduce();
         myStudent.study();
+        allInOne.showPerson(person);
+        allInOne.showPerson(myStudent);
 
         System.out.println("-----------");
         Product product = new Product();
@@ -65,6 +80,8 @@ public class Runner {
         Electronics myElectronics = new Electronics();
         myElectronics.display();
         myElectronics.checkWarranty();
+        allInOne.showProduct(product);
+        allInOne.showProduct(myElectronics);
 
         System.out.println("-----------");
         Vehicle vehicle = new Vehicle();
@@ -74,6 +91,8 @@ public class Runner {
         Airplane myPlane = new Airplane();
         myPlane.move();
         myPlane.takeOff();
+        allInOne.showVehical(vehicle);
+        allInOne.showVehical(myPlane);
 
         System.out.println("-----------");
         MedicalProfessional professional = new MedicalProfessional();
@@ -83,6 +102,8 @@ public class Runner {
         Doctor myDoctor = new Doctor();
         myDoctor.treatPatient();
         myDoctor.prescribeMedicine();
+        allInOne.showMedicalProfessional(professional);
+        allInOne.showMedicalProfessional(myDoctor);
 
         System.out.println("-----------");
         FoodItem item = new FoodItem();
@@ -92,6 +113,8 @@ public class Runner {
         Pizza myPizza = new Pizza();
         myPizza.prepare();
         myPizza.addToppings();
+        allInOne.showFoodItem(item);
+        allInOne.showFoodItem(myPizza);
 
         System.out.println("-----------");
         Item iteam = new Item();
@@ -101,6 +124,8 @@ public class Runner {
         Book myBook = new Book();
         myBook.checkOut();
         myBook.read();
+        allInOne.showItem(iteam);
+        allInOne.showItem(myBook);
 
         System.out.println("-----------");
         Instrument instrument = new Instrument();
@@ -110,6 +135,8 @@ public class Runner {
         Guitar myGuitar = new Guitar();
         myGuitar.play();
         myGuitar.tuneStrings();
+        allInOne.showInstrument(instrument);
+        allInOne.showInstrument(myGuitar);
 
         System.out.println("-----------");
         Game game = new Game();
@@ -119,6 +146,8 @@ public class Runner {
         Football myFootball = new Football();
         myFootball.play();
         myFootball.scoreGoal();
+        allInOne.showGame(game);
+        allInOne.showGame(myFootball);
 
         System.out.println("-----------");
         Phenomenon phenomenon = new Phenomenon();
@@ -128,6 +157,8 @@ public class Runner {
         Rain myRain = new Rain();
         myRain.occur();
         myRain.measureRainfall();
+        allInOne.showPhenomenon(phenomenon);
+        allInOne.showPhenomenon(myRain);
 
         System.out.println("-----------");
         Plant plant = new Plant();
@@ -137,6 +168,8 @@ public class Runner {
         Flower myFlower = new Flower();
         myFlower.grow();
         myFlower.bloom();
+        allInOne.showPlant(plant);
+        allInOne.showPlant(myFlower);
 
         System.out.println("-----------");
         Camera camera = new Camera();
@@ -146,6 +179,8 @@ public class Runner {
         DSLRCamera myDSLR = new DSLRCamera();
         myDSLR.capture();
         myDSLR.changeLens();
+        allInOne.showCamera(camera);
+        allInOne.showCamera(myDSLR);
 
         System.out.println("-----------");
         Exercise exercise = new Exercise();
@@ -155,6 +190,8 @@ public class Runner {
         WeightLifting myWorkout = new WeightLifting();
         myWorkout.perform();
         myWorkout.increaseWeight();
+        allInOne.showExercise(exercise);
+        allInOne.showExercise(myWorkout);
 
         System.out.println("-----------");
         Garment garment = new Garment();
@@ -164,6 +201,8 @@ public class Runner {
         Shirt myShirt = new Shirt();
         myShirt.wear();
         myShirt.buttonUp();
+        allInOne.showGarment(garment);
+        allInOne.showGarment(myShirt);
 
         System.out.println("-----------");
         Building building = new Building();
@@ -173,6 +212,8 @@ public class Runner {
         Skyscraper myTower = new Skyscraper();
         myTower.construct();
         myTower.installElevator();
+        allInOne.showBuilding(building);
+        allInOne.showBuilding(myTower);
 
         System.out.println("-----------");
         Investment investment = new Investment();
@@ -182,6 +223,8 @@ public class Runner {
         Stock myStock = new Stock();
         myStock.grow();
         myStock.trade();
+        allInOne.showInvestment(investment);
+        allInOne.showInvestment(myStock);
 
         System.out.println("-----------");
         Course course = new Course();
@@ -191,6 +234,8 @@ public class Runner {
         ProgrammingCourse javaCourse = new ProgrammingCourse();
         javaCourse.teach();
         javaCourse.debugCode();
+        allInOne.showCourse(course);
+        allInOne.showCourse(javaCourse);
 
         System.out.println("-----------");
         CarPart part = new CarPart();
@@ -200,6 +245,8 @@ public class Runner {
         Engine myEngine = new Engine();
         myEngine.function();
         myEngine.checkOil();
+        allInOne.showCarPart(part);
+        allInOne.showCarPart(myEngine);
 
         System.out.println("-----------");
         Gadget gadget = new Gadget();
@@ -209,6 +256,8 @@ public class Runner {
         SmartWatch myWatch = new SmartWatch();
         myWatch.operate();
         myWatch.trackHeartRate();
+        allInOne.showGadget(gadget);
+        allInOne.showGadget(myWatch);
 
         System.out.println("-----------");
         Crop crop = new Crop();
@@ -218,6 +267,8 @@ public class Runner {
         Wheat myWheat = new Wheat();
         myWheat.grow();
         myWheat.harvest();
+        allInOne.showCrop(crop);
+        allInOne.showCrop(myWheat);
 
         System.out.println("-----------");
         Publication pub = new Publication();
@@ -227,6 +278,8 @@ public class Runner {
         Magazine myMag = new Magazine();
         myMag.publish();
         myMag.flipPages();
+        allInOne.showPublication(pub);
+        allInOne.showPublication(myMag);
 
         System.out.println("-----------");
         Show show = new Show();
@@ -236,6 +289,8 @@ public class Runner {
         Concert myConcert = new Concert();
         myConcert.perform();
         myConcert.playEncore();
+        allInOne.showShow(show);
+        allInOne.showShow(myConcert);
 
         System.out.println("-----------");
         Systems sys = new Systems();
@@ -245,6 +300,8 @@ public class Runner {
         Firewall myFirewall = new Firewall();
         myFirewall.protect();
         myFirewall.configureRules();
+        allInOne.showSystem(sys);
+        allInOne.showSystem(myFirewall);
 
         System.out.println("-----------");
         Transport transport = new Transport();
@@ -254,6 +311,8 @@ public class Runner {
         Truck myTruck = new Truck();
         myTruck.move();
         myTruck.loadCargo();
+        allInOne.showTransport(transport);
+        allInOne.showTransport(myTruck);
 
         System.out.println("-----------");
         Service service = new Service();
@@ -263,6 +322,8 @@ public class Runner {
         RoomService myService = new RoomService();
         myService.serve();
         myService.deliverFood();
+        allInOne.showService(service);
+        allInOne.showService(myService);
 
         System.out.println("-----------");
         Property property = new Property();
@@ -272,6 +333,8 @@ public class Runner {
         Apartment myApt = new Apartment();
         myApt.sell();
         myApt.signLease();
+        allInOne.showProperty(property);
+        allInOne.showProperty(myApt);
 
         System.out.println("-----------");
         Products products = new Products();
@@ -632,6 +695,8 @@ public class Runner {
         Handbag myBag = new Handbag();
         myBag.wear();
         myBag.organize();
+        allInOne.showAccessory(acc);
+        allInOne.showAccessory(myBag);
 
         System.out.println("-----------");
         Shoe shoe = new Shoe();
@@ -641,6 +706,8 @@ public class Runner {
         Sneakers mySneakers = new Sneakers();
         mySneakers.wear();
         mySneakers.tieLaces();
+        allInOne.showShoe(shoe);
+        allInOne.showShoe(mySneakers);
 
         System.out.println("-----------");
         Glasses glasses = new Glasses();
