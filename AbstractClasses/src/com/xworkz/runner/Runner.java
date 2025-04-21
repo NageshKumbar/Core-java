@@ -38,6 +38,8 @@ public class Runner {
         projects.release();
         projects.testing();
         projects.updates();
+
+
     }
 
 }
