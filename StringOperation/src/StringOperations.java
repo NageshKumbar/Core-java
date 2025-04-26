@@ -109,6 +109,5 @@ public class StringOperations {
         }else {
             System.out.println("given string is not a palindrome");
         }
-
     }
 }
