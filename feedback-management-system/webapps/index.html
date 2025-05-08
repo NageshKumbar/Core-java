@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background: #f4f6f8;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+
+        form {
+          background: white;
+          padding: 30px 40px;
+          border-radius: 10px;
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+          width: 350px;
+        }
+
+        h1 {
+          text-align: center;
+          color: #333;
+          margin-bottom: 25px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"] {
+          width: 100%;
+          padding: 10px;
+          margin-top: 6px;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px;
+          width: 100%;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+          background-color: #45a049;
+        }
+
+        label {
+          font-weight: bold;
+          display: block;
+          margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<form action="submit" method="post">
+    <h1>Feedback Form</h1>
+
+    <label for="Username">Name:</label>
+    <input type="text" placeholder="Enter your name" name="Username" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" placeholder="Enter your email" name="email" required>
+
+    <label for="contact">Contact:</label>
+    <input type="number" placeholder="Enter your contact" name="contact" required>
+
+    <label for="feedback">Feedback:</label>
+    <input type="text" placeholder="Type your feedback" name="feedback" required>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

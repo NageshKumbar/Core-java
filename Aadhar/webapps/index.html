@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aadhar Validation</title>
+    <style>
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          background-color: #f1f3f5;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+        }
+
+        form {
+          background: #fff;
+          padding: 30px 40px;
+          border-radius: 10px;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+          width: 300px;
+        }
+
+        h1 {
+          text-align: center;
+          color: #2c3e50;
+          margin-bottom: 25px;
+        }
+
+        label {
+          display: block;
+          margin-bottom: 8px;
+          font-weight: 600;
+          color: #333;
+        }
+
+        input[type="number"] {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-sizing: border-box;
+          font-size: 16px;
+        }
+
+        input[type="submit"] {
+          background-color: #3498db;
+          color: white;
+          padding: 10px;
+          width: 100%;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+          background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+<form action="submit" method="post">
+    <h1>Aadhar Validation</h1>
+
+    <label>Aadhar Number:</label>
+    <input type="number" placeholder="Enter the Aadhar number" name="aadhar" required>
+
+    <input type="submit" value="Validate">
+</form>
+
+</body>
+</html>
