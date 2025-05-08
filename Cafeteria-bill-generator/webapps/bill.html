@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafeteria Billing Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .billing-form {
+            max-width: 500px;
+            margin: auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .billing-form h2 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color:white;">Cafeteria</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" style="color:white;" href="index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="billing-form">
+    <h2>Cafeteria Billing Form</h2>
+    <form action="submit-bill" method="post">
+        <div class="mb-3">
+            <label for="customerName" class="form-label">Customer Name:</label>
+            <input type="text" class="form-control" id="customerName" name="customerName" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="itemName" class="form-label">Food Item Name:</label>
+            <input type="text" class="form-control" id="itemName" name="itemName" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="quantity" class="form-label">Quantity:</label>
+            <input type="number" class="form-control" id="quantity" name="quantity" min="1" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="price" class="form-label">Price per Item (₹):</label>
+            <input type="number" class="form-control" id="price" name="price" min="0" required>
+        </div>
+
+        <button type="submit" class="btn btn-success w-100">Generate Bill</button>
+    </form>
+</div>
+
+</body>
+</html>
